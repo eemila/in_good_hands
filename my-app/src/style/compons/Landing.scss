@@ -1,0 +1,25 @@
+@import "./Hero.scss";
+@import "./MainBar.scss";
+@import "./Ttl.scss"; 
+@import "./Btn.scss"; 
+
+@import './Data.scss';
+@import './DataNo.scss';
+
+@import './Instruction.scss';
+@import './Step.scss'; 
+
+@import './About.scss'; 
+
+@import './Helped.scss'; 
+@import './Aim.scss';
+@import './Organization.scss';
+@import './Pagination.scss'; 
+
+@import './ContactUs.scss';
+@import './Form.scss'; 
+
+body {
+    font-family: $font-base;
+    color: $main-color
+}
