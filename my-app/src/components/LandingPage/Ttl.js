@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Ttl = () => (
-    <div>Title</div>
-)
+class Ttl extends Component {
+    render(){
+        let { txt } = this.props; 
+
+        return <p>{txt}</p>
+    }
+}
 
 export default Ttl;

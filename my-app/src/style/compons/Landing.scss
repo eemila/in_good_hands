@@ -19,6 +19,8 @@
 @import './ContactUs.scss';
 @import './Form.scss'; 
 
+@import '../settings/colors'; 
+
 body {
     font-family: $font-base;
     color: $main-color

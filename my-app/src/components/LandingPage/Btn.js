@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Btn = () => (
-    <button>Oddaj rzeczy</button>
-)
+class Btn extends Component {
+    render(){
+        let { btnTxt } = this.props; 
 
+        return <button className="btn-main">{btnTxt}</button>
+    }
+}
 export default Btn;
