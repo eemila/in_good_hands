@@ -1,8 +1,22 @@
-import React from 'react';
+import React, {Component} from 'react';
+// import {HashRouter, Route, Switch} from 'react-router-dom';
+
 import LandingPage from './components/LandingPage'
 
-const App = () => (
-  <LandingPage />
-)
+class App extends Component{
+  render(){
+    return (
+      <LandingPage />
+      // <HashRouter>
+        
+      //   <Switch>
+
+      //   </Switch>
+        
+      // </HashRouter>    
+    )
+  }
+}
+  
 
 export default App;

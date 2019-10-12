@@ -1,0 +1,23 @@
+.step-decsr {
+    margin-top: 60px; 
+    margin-bottom: 60px; 
+    text-align: center;
+    h6 {
+        font-size: 18px; 
+        
+    }
+    p {
+        font-size: 16px;
+        position: relative;
+    }
+}
+
+p::before {
+    content:"";
+    border-bottom: 1px solid $main-color;
+    display: block;  
+    width: 100px; 
+    position: absolute;  
+    bottom: 60px;
+    right: 35px; 
+}

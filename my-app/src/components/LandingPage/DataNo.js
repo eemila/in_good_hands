@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const DataNo = () => (
-    <>
-        <h3>Number</h3>
-        <h5>What was done</h5>
-        <p>Lorem</p>
-    </>
-)
+class DataNo extends Component {
+    render(){
+        let { number, done, lorem} = this.props
+        return (
+            <article className="no-art">
+                <h3>{number}</h3>
+                <h5>{done}</h5>
+                <p>{lorem}</p>
+            </article>
+        )
+        
+    }
+}
+   
 
 export default DataNo;

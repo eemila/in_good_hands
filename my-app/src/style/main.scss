@@ -5,7 +5,7 @@
 
 //fonts
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap&subset=latin-ext");
-@import "./settings/fonts.scss";
+@import "./settings/_fonts.scss";
 
 //colors
 @import "./settings/colors"; 
@@ -14,4 +14,22 @@
 @import "./settings/mixins";
 
 //components
-@import "./compons/Landing.scss"
+@import "./compons/Landing.scss";
+
+
+
+body {
+    font-family: $font-base; 
+    color: $main-color; 
+}
+
+.ctn-main {
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.ctn-left {
+    width: 90%;
+    margin-left: 0; 
+}
+

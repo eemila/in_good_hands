@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const Step = () => (
-    <>
-        <img src="" alt="" title=""></img>
-        <h6>What to do</h6>
-        <p>Details</p>
-    </>
-)
+
+
+class Step extends Component {
+    render(){
+        let {src, todo, details } = this.props
+        return (
+            <article className="step-decsr">
+                <img src={src} alt="" title=""></img>
+                <h6>{todo}</h6>
+                <p>{details}</p>
+            </article>
+        )
+    }
+}
+   
 
 export default Step;
