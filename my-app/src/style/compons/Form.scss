@@ -1,0 +1,73 @@
+.contact-form-sec {
+    height: 100vh; 
+    background: 
+    linear-gradient( rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75) ),
+    url(../../assets/assets/Background-Contact-Form.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 105px;  
+}
+
+.contact-ctn {
+    width: 30%; 
+}
+
+.contact-ttl {
+    font-size: 38px; 
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.contact-form {
+    .contact-inputs-ctn {
+        display: flex; 
+        justify-content: space-between;
+        label {
+            display: block;
+            font-size: 16px; 
+            padding-bottom: 15px;
+        }
+        input {
+            display: block;
+            font-size: 16px; 
+            border: none; 
+            border-bottom: 1px solid $loggin-account; 
+            margin-bottom: 60px;  
+            
+        }
+    }
+}
+
+.contact-txtarea {
+   
+    label {
+        display: block;
+        font-size: 16px; 
+        padding-bottom: 15px;
+    }
+    textarea {
+        display: block;
+        font-size: 16px; 
+        border: none; 
+        border-bottom: 1px solid $loggin-account; 
+        margin-bottom: 60px;  
+        height: 100px; 
+        width: 100%;  
+    }
+}
+
+.contact-btn-ctn {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end;
+    .contact-btn {
+        background-color: transparent;
+        padding: 13px 52px; 
+        border: 1px solid $main-color;
+        font-family: 18px; 
+        font-weight: 300;
+    }
+}

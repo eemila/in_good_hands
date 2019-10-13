@@ -1,0 +1,19 @@
+.footer-sec {
+    display: flex; 
+    width: 55%;
+    float: right; 
+    justify-content: space-between;
+    padding-right: 105px; 
+    p {
+        display: block;
+        font-size: 18px; 
+        margin: 0; 
+    }
+    div {
+        display: block; 
+        img {
+            margin-left: 10px; 
+        }
+    }
+
+}

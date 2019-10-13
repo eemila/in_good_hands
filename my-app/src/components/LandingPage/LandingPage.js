@@ -6,6 +6,7 @@ import Instruction from './Instruction';
 import About from './About';
 import Helped from './Helped';
 import ContactUs from './ContactUs';
+import Footer from './Footer'; 
 
 
 //fullstory
@@ -21,16 +22,13 @@ class LandingPage extends Component {
                 <About />
                 <Helped />
                 <ContactUs />
+                <Footer />
             </>
         )
     }
 }
     
             
-            
     
-        
-   
-
 
 export default LandingPage;

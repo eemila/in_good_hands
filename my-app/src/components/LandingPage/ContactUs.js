@@ -5,13 +5,11 @@ import Form from './Form';
 import Btn from './Btn';  
 
 const ContactUs = () => (
-    <>
-        <img src="" alt="stack" title=""></img>
+    <section id="contact">
         <Ttl />
         <Form />
         <Btn />
-        
-    </>
+    </section>
 )
 
 export default ContactUs;

@@ -1,0 +1,16 @@
+.aim-item {
+    display: flex; 
+    font-size: 24px; 
+    padding: 23px 42px;
+    width: 208px;
+    height: 79px;  
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        border: 0.75px solid #3C3C3C;
+    }
+}
+
+.aim-item-txt {
+    text-align: center; 
+}

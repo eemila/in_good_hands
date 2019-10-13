@@ -1,0 +1,36 @@
+.orgs-ctn {
+    width: 80%; 
+    margin: 0 auto; 
+    font-family: $font-alt;
+    font-size: 18px; 
+    font-weight: 300; 
+    span:nth-child(-n+2):after {
+        content: "";
+        width: 80%; 
+        border-bottom: 1px solid $loggin-account;
+        display: block;  
+        position: absolute; 
+    }
+
+}
+
+.org-item {
+    display: flex;
+    .org-info {
+        width: 65%; 
+        h3 {
+            font-size: 26px; 
+            margin-bottom: 10px; 
+        }
+        .org-item-mission {
+            font-style: italic;
+            margin-top: 10px; 
+        }
+    }
+    .org-add {
+        width: 35%; 
+        justify-self: flex-start;
+        align-self: flex-end;
+    
+    }
+}

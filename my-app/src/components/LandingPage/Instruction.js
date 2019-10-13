@@ -4,7 +4,7 @@ import Ttl from './Ttl';
 import Step from './Step';
 import Btn from './Btn'; 
 
-import decor from '../../assets/assets/Decoration.svg';
+
 
 import icon1 from '../../assets/assets/Icon-1.svg';
 import icon2 from '../../assets/assets/Icon-2.svg';
@@ -12,10 +12,9 @@ import icon3 from '../../assets/assets/Icon-3.svg';
 import icon4 from '../../assets/assets/Icon-4.svg';
 
 const Instruction = () => (
-    <section className="4steps">
+    <section className="4steps" id="instruction">
         <div className="steps-ttl">
             <Ttl txt="Wystarczą 4 proste kroki"/>
-            <img src={ decor }></img>
         </div>
         <section className="steps-highlighted">
 
