@@ -1,21 +1,48 @@
 import React from 'react';
-import { Link } from "react-router-dom"; 
+import { NavLink, Link as RouterLink } from "react-router-dom"; 
+import { Link } from 'react-scroll';
 
-const MainBar = () => (
+const options = {
+    activeClass: "active",
+    spy: true,
+    smooth: true,
+    offset: -50,
+    duration: 500
+}
+
+const MainBar = () => {
+
+   return (
     <section>
         <ul className="nav-goin-option">
-            <li><Link to='/logowanie'>Zaloguj</Link></li>
-            <li><Link to='/rejestracja'>Załóż konto</Link></li>
+            <li><RouterLink to='/logowanie'>Zaloguj</RouterLink></li>
+            <li><RouterLink to='/rejestracja'>Załóż konto</RouterLink></li>
         </ul>
-
+        
         <ul className="nav-main">
-            <li><a href='#'>Start</a></li>
-            <li><a href='#instruction'>O co chodzi</a></li>
-            <li><a href='#about'>O nas</a></li>
-            <li><a href='#help'>Fundacje i organizacje</a></li>
-            <li><a href='#contact'>Kontakt</a></li>
+            <li><NavLink to='/'>Start</NavLink></li>
+            <li><Link to='instruction' {...options}>O co chodzi</Link></li>
+            <li><Link to='about' {...options}>O nas</Link></li>
+            <li><Link to='help' {...options}>Fundacje i organizacje</Link></li>
+            <li><Link to='contact' {...options}>Kontakt</Link></li>
         </ul>
+        
     </section>
-)
+)}
 
 export default MainBar;
+
+
+
+//notes - hooks: 
+// import React, { useState, useEffect } from 'react';
+
+// const [eat, setEat] = useState(false);
+// const handleOnClick = () => setEat(!eat);
+// useEffect(() => {
+//     console.log(eat)
+// }, [eat])
+
+// {eat ? 'hahaha': 'yyyy'}
+
+// <button onClick={handleOnClick} >Zjedz mnie</button>

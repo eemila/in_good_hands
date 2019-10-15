@@ -9,13 +9,16 @@ class SignIn extends Component {
         return (
             <section className="signUp-sec">
                 <MainBar />
-                <Ttl txt="Załóż konto"/>
-                <RegisterForm /> 
+                <div className="center-ctn"> 
+                    <div className="sec-ttl">
+                        <Ttl txt="Załóż konto"/>
+                    </div>
+                    <RegisterForm /> 
+                </div>    
             </section>
         )
     }
 }
-    
             
     
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import MainBar from "../LandingPage/MainBar"; 
 import Ttl from "../LandingPage/Ttl";
-import Btn from "../LandingPage/Btn"; 
+
 
 
 class LogOut extends Component {
@@ -10,12 +10,16 @@ class LogOut extends Component {
         return (
             <section className="LogOut-sec">
                 <MainBar />
-                <Ttl txt="Zaloguj się"/>
-                <Btn btnTxt="Strona Główna"/>
+                <div className="logout-ctn">
+                    <Ttl txt="Wylogowanie nastąpiło pomyślnie!"/>
+                    <button className="backhome-btn">Strona Główna</button>
+                </div>
+              
+
             </section>
         )
     }
-}
-    
-            
+}        
+
+
 export default LogOut;

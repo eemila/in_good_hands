@@ -9,8 +9,13 @@ class SignIn extends Component {
         return (
             <section className="signIn-sec">
                 <MainBar />
-                <Ttl txt="Zaloguj się"/>
-                <LogForm /> 
+                <div className="center-ctn"> 
+                    <div className="sec-ttl">
+                        <Ttl txt="Zaloguj się"/>
+                    </div>
+                    <LogForm /> 
+                </div>
+                  
             </section>
         )
     }

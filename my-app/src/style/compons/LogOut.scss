@@ -2,3 +2,22 @@
     width: 80%; 
     margin: 0 auto; 
 }
+
+.logout-ctn {     
+    width: 25%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.backhome-btn {
+    font-size: 18px;
+    font-weight: 300;
+    background-color: transparent;
+    padding: 13px 26px;
+    border: 1px solid $sec-bckgrd;
+    transition: all .3s linear;
+    &:hover {
+        color: #fff;
+        background-color: $sec-bckgrd;
+    }
+}    

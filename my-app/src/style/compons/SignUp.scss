@@ -2,3 +2,47 @@
     width: 80%; 
     margin: 0 auto; 
 }
+
+.signup-form {     
+    width: 25%;
+    margin: 30px auto;
+    background-color: $sec-bckgrd;
+    padding: 30px; 
+    margin-bottom: 20px;
+            label {
+                display: block;
+                text-align: left;
+                font-size: 16px;
+                padding-bottom: 15px;
+                color: #3C3C3C; 
+                font-weight: 600;
+            }
+            input {
+                display: block;
+                font-size: 16px;
+                border: none;
+                border-bottom: 1px solid #000;
+                margin-bottom: 30px;
+                background: transparent;  
+                width: 100%; 
+            }
+        }
+    
+.btns-ctn {
+    width:40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}    
+    
+.sec-btn {
+    font-size: 18px;
+    font-weight: 300;
+    background-color: transparent;
+    border: none;
+    padding: 13px 26px;
+    &:hover {
+    border: 1px solid grey;
+    }
+}

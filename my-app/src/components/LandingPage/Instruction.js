@@ -1,10 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 import Ttl from './Ttl';
 import Step from './Step';
 import Btn from './Btn'; 
-
-
 
 import icon1 from '../../assets/assets/Icon-1.svg';
 import icon2 from '../../assets/assets/Icon-2.svg';
@@ -35,7 +34,7 @@ const Instruction = () => (
              
         </section>
         <div className="centred-btn">
-            <Btn btnTxt="Oddaj rzeczy"/>
+            <Link to="/logowanie"><Btn btnTxt="Oddaj rzeczy"/></Link>
         </div> 
     </section>
 )

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import MainBar from './MainBar';
 import Ttl from './Ttl';
@@ -14,8 +15,12 @@ const Hero = () => (
                     <Ttl txt='Zacznij pomagać!' txt2= 'Oddaj niechciane rzeczy w zaufane ręce'/>
                 </div>
                 <div className="btn-ctn">
+                <Link to='/logowanie'>
                     <Btn btnTxt='Oddaj rzeczy'/>
+                </Link>
+                <Link to='/logowanie'>
                     <Btn btnTxt='Zorganizuj zbiórkę'/>
+                </Link>
                 </div> 
                 
             </section>
