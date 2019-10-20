@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Dbam o Zdrowie",
+        "aimAndMission": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.", 
+        "needed": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    },
+    {
+        "id": 2,
+        "name": "Fundacja “Dla dzieci”",
+        "aimAndMission": "Cel i misja: Pomoc dzieciom z ubogich rodzin.", 
+        "needed": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    }, 
+    {
+        "id": 3,
+        "name": "Dbam o Zdrowie",
+        "aimAndMission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.", 
+        "needed": "ubrania, jedzenie, ciepłe koce"
+    }
+]    

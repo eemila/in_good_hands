@@ -14,17 +14,17 @@ class Form extends Component {
                     <form className="contact-form" action="/handling-contact-form" method="post">
                         <div className="contact-inputs-ctn">
                             <div className="contact-item-ctn">
-                                <label for="name">Wpisz swoje imię</label>
+                                <label>Wpisz swoje imię</label>
                                     <input type="text" id="name" name="user_name" placeholder="Krzysztof" />
                                 </div>
                             <div>
-                                <label for="mail">Wpisz swój email</label>
+                                <label>Wpisz swój email</label>
                                     <input type="email" id="mail" name="user_mail" placeholder="abc@xyz.com"/>
                             </div>
                         </div>
                     
                         <div className="contact-txtarea">
-                            <label for="msg">Wpisz swoją wiadomość</label>
+                            <label>Wpisz swoją wiadomość</label>
                                 <textarea id="msg" name="user_message" placeholder="Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
